@@ -8,7 +8,7 @@ const app = express();
 // CORS
 app.use(
   cors({
-    origin: "https://inventory-seven-wine.vercel.app/",
+    origin: "https://inventory-seven-wine.vercel.app",
     credentials: true,
   })
 );
